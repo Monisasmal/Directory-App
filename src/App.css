@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #4a4a4a;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 80%;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  
+  /* Tabs */
+  .tab-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab-buttons button {
+    margin: 0 10px;
+  }
+  .add-row-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+  }
+  
+  .add-row-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  
+  /* Table Styles */
+  table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Form Styles */
+  form {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input, form button {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+  }
+  
+  form button {
+    width: auto;
+  }
+  
+  /* Search Result */
+  #search-result {
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #search-result table {
+    margin: 10px auto;
+  }
+  
+  #search-result p {
+    color: #ff0000;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    table, form {
+      width: 100%;
+    }
+  
+    .tab-buttons button {
+      margin: 5px;
+    }
+  }
+  
