@@ -45,8 +45,7 @@ Easily **browse**, **search**, and **manage** directory entries — perfect for 
 - Data persists in local storage — no backend required!
 
 ---
-
-**🙋‍♀️ Author Manaswini Sasmal**
+## 🙋‍♀️ Author - Manaswini Sasmal
 
 📲 - 6370094643
 
